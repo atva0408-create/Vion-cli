@@ -30,7 +30,7 @@ program
 
 program
   .command('create <project-name>')
-  .description('Create a new camera.ui plugin project')
+  .description('Create a new ViON plugin project')
   .action(async (name) => {
     await createProject(name);
   });

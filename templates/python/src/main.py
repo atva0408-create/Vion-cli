@@ -327,7 +327,7 @@ class SamplePlugin(BasePlugin):
         # await self.api.sensorManager.addSensor(plug)
 
     def _on_shutdown(self) -> None:
-        """Called when camera.ui is shutting down."""
+        """Called when ViON is shutting down."""
         self.logger.log("Shutting down plugin")
 
         # Cleanup all sensors

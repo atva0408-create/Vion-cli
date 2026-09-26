@@ -1,7 +1,7 @@
 import { cancel, intro, outro } from '@clack/prompts';
 import pc from 'picocolors';
 
-const defaultBanner = 'camera.ui - Plugin Development CLI';
+const defaultBanner = 'ViON - Plugin Development CLI';
 
 const gradientBanner =
   // eslint-disable-next-line @stylistic/max-len
